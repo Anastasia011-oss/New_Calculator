@@ -23,6 +23,13 @@ while True:
         print("Результат:", a - b)
     elif choice == "3":
         print("Результат:", a * b)
+    elif choice == "4":
+        if b == 0:
+            print("Ошибка: деление на ноль!")
+        else:
+            print("Результат:", a / b)
+    else:
+        print("Неверный выбор. Попробуйте снова.")
 
 
 
