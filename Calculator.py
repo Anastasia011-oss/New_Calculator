@@ -17,4 +17,7 @@ while True:
     a = float(input("Введите первое число: "))
     b = float(input("Введите второе число: "))
 
+    if choice == "1":
+        print("Результат:", a + b)
+
 
