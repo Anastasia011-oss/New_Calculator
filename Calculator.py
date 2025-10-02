@@ -21,6 +21,8 @@ while True:
         print("Результат:", a + b)
     elif choice == "2":
         print("Результат:", a - b)
+    elif choice == "3":
+        print("Результат:", a * b)
 
 
 
