@@ -19,5 +19,8 @@ while True:
 
     if choice == "1":
         print("Результат:", a + b)
+    elif choice == "2":
+        print("Результат:", a - b)
+
 
 
